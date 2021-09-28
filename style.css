@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merienda&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/4388289/pexels-photo-4388289.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=700);
+  background-repeat: no-repeat;
+  font-family: 'Lora', serif;
+  text-align: center;
+  
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 16px;
+}
+
+form {
+  background-color: white;
+  max-width: 600px;
+  border-radius: 6px;
+  padding: 25px 40px;
+  margin: 40px auto;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0, 4);
+}
+
+textarea {
+  width: 100%;
+}
+
+.form-control {
+  font-size: 16px;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+.container2 {
+  
+  border-radius: 20px;
+  padding: 10px;
+  display: block;
+  width: 100%;
+}
+
+.submit-button {
+  display: block;
+  font-size: 17px;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #f4eca9;
+  border-radius: 10px;
+  border-color: black;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #ffc073;
+}

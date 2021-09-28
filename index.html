@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<link rel ="stylesheet" href="./style.css"></style>
+<body>
+  <div class="container">
+    <header class="header">
+  <h1 id="title">Your Company Survey Form</h1>
+  <h2 id="description"><i>Please let us know how was your experience!</i></h2>
+</div>
+    </header>
+  
+  <form id="survey-form">
+        <div class="form-control">
+         <label id="name-label" for="name">Name</label><br><br>
+        <input id="name" type="text" name="name" class="form-control" placeholder="Enter your name" required></input></div><br>
+    
+        <div class="form-control">
+        <label id="email-label" for="email">Email</label><br><br>
+  <input id="email" type="email" name="email" class="form-control" placeholder="Your email address" required></input><br>
+  </div>
+  
+        <div class="form-control">
+        <label id="number-label" for="number">Age</label><br><br>
+  <input id="number" type="number" name="age" class="form-control" placeholder="Age" min="18" max="100" required></input></div><br>
+  
+   <div class="form-control">
+     <label for="Country"><p>Which Country did you like the most?</p></label>
+  
+  <select id="dropdown" class="form-control">
+    <option value="Country"> Select </option>
+    <option value="Italy"> Italy </option>
+    <option value="France"> France </option>
+    <option value="Germany"> Germany </option>
+    <option value="Germany"> Greece </option>
+    <option value="Germany"> Spain </option>
+     </select><br>
+  
+  <p>Would you recommend our Travel Company to your friends?</p>
+  
+  <label class="container2">
+    <input type="radio" name="radio-button" value="absolutely">Absolutely</input><br>
+  <span class="checkmark"></span>
+  </label>
+  
+  <label class="container2">
+    <input type="radio" name="radio-button" value="maybe">Maybe</input>
+  <span class="checkmark"></span>
+  </label><br>
+  
+  <label class="container2">
+    <input type="radio" name="radio-button" value="Not_Sure">Not Sure</input>
+  <span class="checkmark"></span>
+  </label><br>
+  
+  <p>Which tour did you enjoy the most?</p>
+  
+  <label for="tours">
+    <input id="tours" type="checkbox" name="City Tours-Wine Tours-Cooking Experience" value="City Tours">City Tours</input><br>
+  
+  <label for="wine tours">
+    <input id="checkbox" type="checkbox" name="City Tours-Wine Tours-Cooking Experience" value="Wine Tours">Wine Tours</input><br>
+  
+  <label>
+    <input id="checkbox" type="checkbox" name="City Tours-Wine Tours-Cooking Experience" value="Cooking Experience">Cooking Experience</input>
+  <br><br>
+  
+  <label id="textarea"> Additional Comments: </label>
+  <br>
+  <textarea id="textarea" name="instructions" rows="5" cols="40"></textarea>
+  <br><br>
+   
+  <button class="submit-button" id="submit" onclick="printPage();">Print</button>
+  <br><br>
+      </form>
+  </div>
+
+</body>
+</html>
